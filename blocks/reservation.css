@@ -78,3 +78,12 @@
   line-height: 30px;
   color: #838383;
 }
+
+.form__input_datetime {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
