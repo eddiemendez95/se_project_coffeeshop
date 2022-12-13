@@ -54,7 +54,7 @@
   left: 80px;
 }
 
-.header__paragraph__address {
+.header__paragraph_address {
   margin: 0px;
   position: absolute;
   bottom: 40px;
@@ -63,7 +63,7 @@
   justify-content: flex-end;
 }
 
-.header__span__accent {
+.header__span_accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
