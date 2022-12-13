@@ -62,7 +62,6 @@
 }
 
 .form__input[type="checkbox"] {
-  border: 4px #838383;
   width: 20px;
   height: 20px;
   display: flex;

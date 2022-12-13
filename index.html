@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -138,7 +138,7 @@
             </div>
           </div>
         </section>
-        <section class="recipes" id="recipes">
+        <section class="recipes" id="recipe">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -155,7 +155,7 @@
               ></iframe>
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span>
-                <spam>~5 min</spam>
+                <span>~5 min</span>
               </p>
             </li>
             <li class="recipes__video-item">
@@ -189,17 +189,15 @@
               <label for="name" class="form__label">Number of guests *</label>
               <input
                 type="text"
-                min="1"
-                max="8"
                 class="form__input"
                 id="name-of-guests"
                 placeholder="1-8"
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <label for="date time" class="form__label">Date & Time *</label>
+              <label for="date-time" class="form__label">Date & Time *</label>
               <input
-                type="date time"
+                type="text"
                 class="form__input"
                 id="date-time"
                 placeholder="mm/dd/yy --:-- --"
