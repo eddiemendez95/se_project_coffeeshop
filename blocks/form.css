@@ -57,12 +57,14 @@
 .form__input_type_checkbox {
   width: 20px;
   height: 20px;
-  display: flex;
   vertical-align: middle;
   border: 1px solid #838383;
   border-radius: 2px;
   margin: 0px;
   justify-content: center;
+  position: relative;
+  top: -2px;
+  margin-right: 12px;
 }
 
 .form__input::placeholder {
