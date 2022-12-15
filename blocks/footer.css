@@ -36,7 +36,7 @@
 
 .footer__social-heading {
   margin: 0 0 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .footer__social-icon {
@@ -64,5 +64,5 @@
 }
 
 .footer__copywright {
-  margin: 0px;
+  margin: 100px 0px 0px;
 }
