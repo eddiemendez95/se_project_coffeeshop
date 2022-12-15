@@ -1,11 +1,10 @@
 .card {
   box-sizing: border-box;
-  padding: 30px 24px 54px;
-  max-width: 600px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-basis: 450px;
+  flex-basis: 650px;
 }
 .card__content {
   list-style: none;
@@ -19,6 +18,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin: 0px 0px 32px 0px;
 }
 
 .card__list-item {

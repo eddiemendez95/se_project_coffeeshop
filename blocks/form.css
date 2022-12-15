@@ -62,6 +62,7 @@
   border: 1px solid #838383;
   border-radius: 2px;
   margin: 0px;
+  justify-content: center;
 }
 
 .form__input::placeholder {
