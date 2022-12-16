@@ -47,6 +47,7 @@
   padding: 0px;
   border: #838383;
   border-radius: 4px;
+  display: block;
 }
 
 .form__button:hover {
@@ -63,7 +64,6 @@
   margin: 0px;
   justify-content: center;
   position: relative;
-  top: -2px;
   margin-right: 12px;
 }
 
@@ -76,7 +76,7 @@
   color: #838383;
 }
 
-.form__input_placeholder {
+.form__input[type="datetime-local"] {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
